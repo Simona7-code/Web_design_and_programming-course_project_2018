@@ -13,7 +13,7 @@ Within the folder, you can find:
 - A JavaScript file (js) containing functions that implement the interactive features of the page.
 - The HTML file defining the structure and content of the web page.
 
-###########################################################################################################
+###############################################################################
 
 Lo scopo del progetto era ideare, progettare e realizzare concretamente un sito web senza l'utilizzo di framework o librerie, quindi realizzando lo styiling e le componenti interattive dalle fondamenta.
 
