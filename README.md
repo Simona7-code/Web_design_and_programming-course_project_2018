@@ -1,3 +1,5 @@
+# Web design and programming course project (2018)
+
 The purpose of the project was to conceive, design, and concretely implement a website without using any frameworks or libraries, building the styling and interactive components from scratch.
 
 It was required to provide a symbolic "title" for the page, the purpose of its creation, and the target audience (those informations are contained in the "descrizione_progetto.txt" file).
