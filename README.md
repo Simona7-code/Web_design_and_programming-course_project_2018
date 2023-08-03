@@ -1,6 +1,6 @@
 The purpose of the project was to conceive, design, and concretely implement a website without using any frameworks or libraries, building the styling and interactive components from scratch.
 
-It was required to provide a symbolic "title" for the page, the purpose of its creation, and the target audience (this information is contained in the "descrizione_progetto.txt" file).
+It was required to provide a symbolic "title" for the page, the purpose of its creation, and the target audience (those informations are contained in the "descrizione_progetto.txt" file).
 
 The developed website falls under the category of an educational site, aiming to guide those who have just received their DSA diagnosis through their initial steps by addressing common questions typically asked and presenting the specific neurodiversity in a light and interactive manner.
 
