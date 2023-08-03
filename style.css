@@ -1,0 +1,231 @@
+body {
+      font-family: 'Josefin Slab', serif;
+      line-height: 1.7;
+      background: #D8BDA6;
+      margin: 0%;
+}
+.navbar {
+      text-align: center;
+      background-color: #ffe6b3;
+      padding: 0.8% 1%; 
+      position: fixed;
+      overflow: hidden; 
+      top: 0; 
+      width: 100%; 
+      height: 9%; 
+}
+@media only screen and (min-width: 426px) {
+    .navbar  {padding-top:25px; } /*necessario altrimenti voci nav spariscono verso l'alto*/
+}
+.navbar a { 
+   color: #993366;
+    text-decoration: none;
+    padding: 3.6%;/*distanza tra voci nel nav*/
+}
+@media only screen and (min-width: 704px) {
+    .navbar a {font-size: 2.5vw;} /*grandezza font nav responsive*/
+}
+a:active {
+    position: relative;
+    top: 1px;
+}/* effetto pressione sul bottone*/
+h1 { 
+    text-align: center;
+    color: #7E2A54;
+    font-size:35px;
+    padding-top: 3%; /*distanza titolo dal limite superiore pagina*/
+} 
+@media only screen and (min-width: 767px) {
+   h1 {font-size: 5vw;
+       padding-left: 6%;}
+}
+@media only screen and (min-width: 1440px) {
+   h1 {font-size: 5vw;
+       padding-left: 6%;
+       padding-top: 7%;}
+} /*titolo pagina responsive, titolo centrato per risoluzioni diverse*/
+@media (height: 1080px) and (max-width: 1440px) {
+h1{    
+       font-size: 5vw;
+       padding-left: 6%;
+       padding-top:10%;}
+}
+@media (height: 1080px) and (max-width: 750px) {
+h1{    
+       font-size: 5vw;
+       padding-left: 6%;
+       padding-top:20%;}
+}
+@media (height: 1080px) and (max-width: 544px) {
+h1{    
+       font-size: 5vw;
+       padding-left: 6%;
+       padding-top:30%;}
+} /*titolo pagina nel caso di allargamento e stringimento con altezza pagina 1080*/
+.main {
+    margin-top: 80px; /*crea spazio sufficiente per il navbar fixed in ogni sottopagina*/
+}
+img {
+  max-width: 100%; 
+}
+#twobrain{
+    margin-right: 120px; /*spazio tra le due immagini di "Cos'è"*/
+}
+@media only screen and (min-width: 1700px) {
+     #twobrain {width: 45%;}
+     #dsa {width: 45%;}
+} /*responsive 4k e 1980 delle due immagini*/
+#disfam {
+    display: block; /*serve ai margin*/
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px; 
+}
+@media only screen and (min-width: 1700px) {
+    #disfam {width: 80%;} /*responsive 4k e 1980*/
+}
+#image {
+   width: 45%; 
+   float: left; /*testo va a destra*/
+   margin-left: 8%;
+}
+@media only screen and (max-width: 769px) {
+    #image  {width: 55%; }
+}
+@media only screen and (max-width: 426px) {
+    #image  {width: 90%; }
+} /*i responsive dell'immagine nella home*/
+#welcome {
+    color: #993366;
+    text-align: center;
+    padding-bottom: 20%; /*dare spazio sotto il blocco home*/
+}
+@media only screen and (min-width: 2125px) {
+    #welcome {font-size: 240%;}
+}
+@media only screen and (max-width: 2124px) {
+    #welcome {font-size: 180%;}
+}
+@media only screen and (max-width: 1633px) { 
+    #welcome {font-size: 130%;}
+}
+@media only screen and (max-width: 1025px) {
+    #welcome {font-size: 95%;}
+}
+@media only screen and (max-width: 769px) {
+    #welcome {font-size: 74%;}
+} /*tutte le dimensioni responsive del font di welcome*/
+.bigger {
+ font-size:125%;
+} 
+.boxedhome{
+    margin-left:7%; 
+    margin-right:15%;
+    font-size:20px;
+}
+@media only screen and (max-width: 1073px) {
+    .boxedhome  {padding-top:6%; }
+}
+@media only screen and (max-width: 426px) {
+    .boxedhome {margin-left: 10%;
+                margin-right: 10%; }
+} /*Per fare in modo che nel responsive il titolo non venga coperto dal menù fixed*/
+.boxed {
+    background: white; 
+    width: 80%;
+    border-radius: 40px;
+    margin-left:10%;
+    margin-bottom:5%;
+    padding: 3% 1.5% 1% 1.9%;
+    overflow:hidden;
+}
+h2 {
+  font-size: 100%;
+}
+@media only screen and (max-width: 2561px) {
+    h2 {font-size: 2.5vw;} 
+}
+@media only screen and (max-width: 425px) {
+    h2 {font-size: 6vw;} 
+}/*titoli sottopagine e versioni responsive*/
+section p {
+         font-size: 18.9px;
+} 
+@media only screen and (min-width: 2125px) {
+    section p {font-size: 250%;} 
+}
+@media only screen and (max-width: 1921px) {
+    section p {font-size: 210%;}
+}
+@media only screen and (max-width: 1919px) {
+    section p {font-size: 140%;}
+}
+@media only screen and (max-width: 1025px) {
+    section p {font-size: 100%;}
+}
+@media only screen and (max-width: 769px) {
+    section p {font-size: 2vw;} 
+}
+@media only screen and (max-width: 425px) {
+    section p {font-size: 3.7vw;}
+}/*dimensione font contenuti sottopagine e versioni responsive*/
+#nuovaPartita {
+    background-color: #D8BDA6; 
+    border: none;
+    color: white;
+    font-family: 'Josefin Slab', serif;
+    border-radius: 15px;
+    font-size: 15px;
+    padding: 15px 30px;
+}
+@media only screen and (max-width: 2561px) {
+   #nuovaPartita {font-size: 200%;} 
+}
+@media only screen and (max-width: 1025px) {
+   #nuovaPartita {font-size: 100%;}
+} /*tasto "ricomincia" e versioni responsive*/
+#game {
+  float: left;
+  margin-right: 50px;
+}
+#nearm {
+    text-align: center;
+}
+#fry { 
+  float: left;
+  margin-right: 50px;
+  border-radius: 20px;
+}/*gif*/
+@media only screen and (min-width: 1700px) {
+    #fry {width: 40%;} /*responsive 4k della gif*/
+}
+.domande{
+    background: #edcec4; 
+    width: 80%;
+    border-radius: 40px;
+    margin-left:10%;
+    margin-bottom:5%;
+    padding: 3% 1.5% 1% 1.9%;
+  } /*box delle domande di Affrontala*/
+h3{
+  text-align: center;
+  font-size: 120%;
+}
+@media only screen and (min-width: 2125px) {
+    h3 {font-size: 250%;} 
+}
+@media only screen and (max-width: 1921px) {
+   h3 {font-size: 210%;}
+}
+@media only screen and (max-width: 1919px) {
+    h3 {font-size: 140%;}
+}
+@media only screen and (max-width: 1025px) {
+    h3 {font-size: 100%;}
+}
+@media only screen and (max-width: 769px) {
+    h3 {font-size: 2vw;} 
+}
+@media only screen and (max-width: 425px) {
+    h3{font-size: 3.7vw;}
+} /*sottotitoli sezione Affrontala e responsive*/
